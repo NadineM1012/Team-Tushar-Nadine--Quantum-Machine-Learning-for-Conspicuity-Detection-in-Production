@@ -1,4 +1,4 @@
-#Quantum Machine Learning for Conspicuity Detection in Production
+Quantum Machine Learning for Conspicuity Detection in Production
 
 Team Information:
 
