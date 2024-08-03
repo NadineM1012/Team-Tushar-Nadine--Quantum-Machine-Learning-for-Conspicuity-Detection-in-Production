@@ -1,23 +1,55 @@
-Quantum Machine Learning for Conspicuity Detection in Production
+# QML-for-Conspicuity-Detection-in-Production
+Womanium Quantum+AI 2024 Projects
 
-Team Information:
+**Please review the participation guidelines [here](https://github.com/womanium-quantum/Quantum-AI-2024) before starting the project.**
 
+_**Do NOT delete/ edit the format of this read.me file.**_
+
+_**Include all necessary information only as per the given format.**_
+
+## Project Information:
+
+### Team Size:
+  - Maximum team size = 2
+  - While individual participation is also welcome, we highly recommend team participation :)
+
+### Eligibility:
+  - All nationalities, genders, and age groups are welcome to participate in the projects.
+  - All team participants must be enrolled in Womanium Quantum+AI 2024.
+  - Everyone is eligible to participate in this project and win Womanium grants.
+  - All successful project submissions earn the Womanium Project Certificate.
+  - Best participants win Womanium QSL fellowships with Fraunhofer ITWM. Please review the eligibility criteria for QSL fellowships in the project description below.
+
+### Project Description:
+  - Click [here](https://drive.google.com/file/d/1AcctFeXjchtEhYzPUsHpP_b4HGlI4kq9/view?usp=sharing) to view the project description.
+  - YouTube recording of the project description - [link](https://youtu.be/Ac1ihFcTRTc?si=i6AIVfQQh8ymYQYp)
+
+## Project Submission:
+All information in this section will be considered for project submission and judging.
+
+Ensure your repository is public and submitted by **August 9, 2024, 23:59pm US ET**.
+
+Ensure your repository does not contain any personal or team tokens/access information to access backends. Ensure your repository does not contain any third-party intellectual property (logos, company names, copied literature, or code). Any resources used must be open source or appropriately referenced.
+
+### Team Information:
 Team Member 1:
-Tushar Pandey
-Womanium Program Enrollment ID: WQ24-gvf0DfBcoFyCheL
-
+ - Full Name: Tushar Pandey
+ - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx): WQ24-gvf0DfBcoFyCheL
 
 
 Team Member 2:
-Nadine Matondo-Mvula
-Womanium Program Enrollment ID: WQ24-PNHFQ5C9fEiqKaZ
+ - Full Name: Nadine Matondo-Mvula
+ - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx): WQ24-PNHFQ5C9fEiqKaZ
 
 
-1. Project Overview:
-This project aims to enhance conspicuity detection within production processes,
-enabling the early identification of improvement opportunities for individual work steps or sub-processes.
-By doing so, we seek to optimize the overall production workflow. We analyze process data such as image data or time series,
-to identify deviations and weaknesses in the production process. Traditional methods for analyzing such data are often very time-consuming.
-To address this, our project explores the potential of hybrid quantum computing to accelerate the analysis process. Our primary focus is
-on implementing the necessary hybrid quantum algorithms and rigorously benchmarking their performance against classical approaches,
-including machine learning and statistical methods.
+### Project Solution:
+The TIG Aluminium 5083 dataset is a 6-class dataset consisting of 26,666 training images and 6,588 test images. For our classification problem, we used a Quanvolutional Neural Network, where the convolutional layer is implemented as a quantum circuit with trainable parameters alongside a classical fully connected layer. We trained the model on both 2-class and 4-class subsets, where for each class, we randomly selected 200-500 samples. These samples were split into training, validation, and test sets using a 70-20-10 ratio.
+
+Further, we used performance metrics to evaluate our model. The 2-class classification problem achieved a test accuracy of 96.6% with an F1 score of 0.98, ROC of 0.96, precision of 0.99, recall of 0.97, and a confusion matrix of [[50, 3], [7, 240]]. In contrast, the original paper achieved a test accuracy of 95% using a classical CNN. This demonstrates that the hybrid model outperforms the classical one. The 4-class classification problem we achieved a test accuracy of 98.5% witn an F1 TODO.... The original paper achieved an accuracy of 71%.
+
+Currently, we are training our model using different data embedding methods to see if we can further improve its performance.
+
+
+
+### Project Presentation Deck:
+_Link a 5min. presentation recording or deck here._
