@@ -120,6 +120,8 @@ Estimated Best validation accuracy after 20 epochs: The validation accuracy migh
 For Angle Embedding, the trends show a more rapid improvement in loss and accuracy over the 14 epochs provided. If this trend continues: Estimated Best validation loss after 20 epochs: The validation loss might decrease further, potentially reaching around 0.12 to 0.14.
 Estimated Best validation accuracy after 20 epochs: The validation accuracy might increase further, potentially reaching around 0.97 to 0.98.
 
+### Future Direction
+Try out other encoding methods and do quantum resource estimation to compare the efficieny of these approaches. Try out other combination of these quantum layers to approach faster convergence of different classification metric results. Write a paper regarding the effect of encoding methods on image classification tasks in terms of speed, efficiency, and resources used for a better environment.
 
 ### Project Presentation Deck:
 _Link a 5min. presentation recording or deck here._
