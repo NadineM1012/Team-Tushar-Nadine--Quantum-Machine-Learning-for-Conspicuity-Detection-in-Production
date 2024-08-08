@@ -51,14 +51,14 @@ We trained the model on both 2-class and 4-class subsets, where for each class, 
 
 Further, we used performance metrics to evaluate our model. The 2-class classification problem achieved a test accuracy of 96.6% with an F1 score of 0.98, ROC of 0.96, precision of 0.99, recall of 0.97, and a confusion matrix of [[50, 3], [7, 240]]. In contrast, the original paper achieved a test accuracy of 95% using a classical CNN. This demonstrates that the hybrid model outperforms the classical one. The 4-class classification problem we achieved a test accuracy of 98.5% witn an F1 score of 0.99, ROC of 1, precision of 0.99, recall of 0.98, and a confusion matrix of [[56,0,2,0], [0,50,0,0], [1,0,45,0], [0,0,0,46]]. The original paper achieved an accuracy of 71%, therefore demonstrating a much powerful improvement through the hybrid quantum model.
 
-Currently, we are training our model using different data embedding methods to see if we can further improve its performance.
+We have the results for the different embeddings we tried to encode the data for a quantum layers with a constraint of 4 qubits. We also show how different sampling effects different classification scores.
 [Results](https://docs.google.com/spreadsheets/d/13_O17s-6w6qbXTOjDOFBNW5nJvJB9Tefj1J1Cp3sRCs/edit?usp=sharing)
 
 ### Multi-Class IQP Embedding vs. Angle Embedding Training Results
 
 ### Overview
 
-The training process was conducted over 20 epochs for both models, with the performance metrics recorded for both training and validation phases. The key metrics tracked were loss and accuracy.
+The training process was conducted over 20 epochs for both models, with the performance metrics recorded for both training and validation phases. The key metrics mentioned here are loss and accuracy. 
 
 ### Training Results
 
@@ -71,8 +71,8 @@ The training process was conducted over 20 epochs for both models, with the perf
 - **Validation Loss**: Decreased from 1.1213 to 0.1163
 - **Training Accuracy**: Increased from 0.5893 to 1.0000
 - **Validation Accuracy**: Increased from 0.6875 to 0.9625
-- **Best Test Loss**: 0.1153
-- **Best Test Accuracy**: 0.9688
+- **Best Validation Loss**: 0.1153
+- **Best Validation Accuracy**: 0.9688
 
 ### Angle Embedding
 
@@ -80,8 +80,8 @@ The training process was conducted over 20 epochs for both models, with the perf
 - **Validation Loss**: Decreased from 1.1503 to 0.1197
 - **Training Accuracy**: Increased from 0.5554 to 0.9893
 - **Validation Accuracy**: Increased from 0.6813 to 0.9688
-- **Best Test Loss**: 0.1115
-- **Best Test Accuracy**: 0.9812
+- **Best Validation Loss**: 0.1115
+- **Best Validation Accuracy**: 0.9812
 
 
 ### Conclusion
