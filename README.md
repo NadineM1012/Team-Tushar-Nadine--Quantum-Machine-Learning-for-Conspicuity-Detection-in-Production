@@ -85,5 +85,34 @@ The training process was conducted over 20 epochs for both models, with the perf
 Both models showed significant improvements in loss reduction and accuracy gain over the 20 epochs. The best results for both models were comparable, with the Angle Embedding slightly outperforming the IQP Embedding in terms of the best test accuracy.
 
 
+### Two-Class IQP Embedding vs. Angle Embedding Training Results
+
+
+### Training Results
+
+![Multi IQP vs Angle](/graphics/two_class_embeddings_result.png)
+
+
+### IQP Embedding
+
+-**Current Best test loss**: 0.2629
+
+-**Current Best test accuracy**: 0.9208
+
+### Angle Embedding
+-**Current Best test loss**:0.1485
+
+-**Current Best test accuracy**: 0.9625
+
+
+### Conclusion
+
+For IQP Embedding, the trends show a steady decrease in both training and validation loss and a consistent increase in accuracy over the 6 epochs provided. If this trend continues: Estimated Best test loss after 20 epochs: The validation loss might decrease further, potentially reaching around 0.20 to 0.22.
+Estimated Best test accuracy after 20 epochs: The validation accuracy might increase further, potentially reaching around 0.94 to 0.96.
+
+For Angle Embedding, the trends show a more rapid improvement in loss and accuracy over the 14 epochs provided. If this trend continues: Estimated Best test loss after 20 epochs: The validation loss might decrease further, potentially reaching around 0.12 to 0.14.
+Estimated Best test accuracy after 20 epochs: The validation accuracy might increase further, potentially reaching around 0.97 to 0.98.
+
+
 ### Project Presentation Deck:
 _Link a 5min. presentation recording or deck here._
