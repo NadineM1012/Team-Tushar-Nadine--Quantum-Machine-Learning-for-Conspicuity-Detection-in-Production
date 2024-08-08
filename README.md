@@ -43,7 +43,11 @@ Team Member 2:
 
 
 ### Project Solution:
-The TIG Aluminium 5083 dataset is a 6-class dataset consisting of 26,666 training images and 6,588 test images. For our classification problem, we used a Quanvolutional Neural Network, where the convolutional layer is implemented as a quantum circuit with trainable parameters alongside a classical fully connected layer. We trained the model on both 2-class and 4-class subsets, where for each class, we randomly selected 200-500 samples. These samples were split into training, validation, and test sets using a 70-20-10 ratio.
+The TIG Aluminium 5083 dataset is a 6-class dataset consisting of 26,666 training images and 6,588 test images. For our classification problem, we used a Quanvolutional Neural Network, where the convolutional layer is implemented as a quantum circuit with trainable parameters alongside a classical fully connected layer.
+
+![Model visualization](graphics/model_visualizartion.png)
+
+We trained the model on both 2-class and 4-class subsets, where for each class, we randomly selected 200-500 samples. These samples were split into training, validation, and test sets using a 70-20-10 ratio.
 
 Further, we used performance metrics to evaluate our model. The 2-class classification problem achieved a test accuracy of 96.6% with an F1 score of 0.98, ROC of 0.96, precision of 0.99, recall of 0.97, and a confusion matrix of [[50, 3], [7, 240]]. In contrast, the original paper achieved a test accuracy of 95% using a classical CNN. This demonstrates that the hybrid model outperforms the classical one. The 4-class classification problem we achieved a test accuracy of 98.5% witn an F1 score of 0.99, ROC of 1, precision of 0.99, recall of 0.98, and a confusion matrix of [[56,0,2,0], [0,50,0,0], [1,0,45,0], [0,0,0,46]]. The original paper achieved an accuracy of 71%, therefore demonstrating a much powerful improvement through the hybrid quantum model.
 
