@@ -58,7 +58,7 @@ The training process was conducted over 20 epochs for both models, with the perf
 
 ### Training Results
 
-![Multi IQP vs Angle](graphics/Multi IQP vs Angle.png)
+![Multi IQP vs Angle](graphics/Multi_IQP_vs_Angle.png)
 
 
 ### IQP Embedding
