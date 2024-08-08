@@ -50,6 +50,39 @@ Further, we used performance metrics to evaluate our model. The 2-class classifi
 Currently, we are training our model using different data embedding methods to see if we can further improve its performance.
 [Results](https://docs.google.com/spreadsheets/d/13_O17s-6w6qbXTOjDOFBNW5nJvJB9Tefj1J1Cp3sRCs/edit?usp=sharing)
 
+### Multi-Class IQP Embedding vs. Angle Embedding Training Results
+
+### Overview
+
+The training process was conducted over 20 epochs for both models, with the performance metrics recorded for both training and validation phases. The key metrics tracked were loss and accuracy.
+
+### Training Results
+
+![Multi IQP vs Angle](graphics/Multi IQP vs Angle.png)
+
+
+### IQP Embedding
+
+- **Training Loss**: Decreased from 1.2098 to 0.0232
+- **Validation Loss**: Decreased from 1.1213 to 0.1163
+- **Training Accuracy**: Increased from 0.5893 to 1.0000
+- **Validation Accuracy**: Increased from 0.6875 to 0.9625
+- **Best Test Loss**: 0.1153
+- **Best Test Accuracy**: 0.9688
+
+### Angle Embedding
+
+- **Training Loss**: Decreased from 1.1728 to 0.0457
+- **Validation Loss**: Decreased from 1.1503 to 0.1197
+- **Training Accuracy**: Increased from 0.5554 to 0.9893
+- **Validation Accuracy**: Increased from 0.6813 to 0.9688
+- **Best Test Loss**: 0.1115
+- **Best Test Accuracy**: 0.9812
+
+
+### Conclusion
+
+Both models showed significant improvements in loss reduction and accuracy gain over the 20 epochs. The best results for both models were comparable, with the Angle Embedding slightly outperforming the IQP Embedding in terms of the best test accuracy.
 
 
 ### Project Presentation Deck:
