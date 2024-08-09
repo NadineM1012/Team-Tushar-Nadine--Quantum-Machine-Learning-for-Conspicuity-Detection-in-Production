@@ -46,6 +46,7 @@ Team Member 2:
 The TIG Aluminium 5083 dataset is a 6-class dataset consisting of 26,666 training images and 6,588 test images. For our classification problem, we used a Quanvolutional Neural Network, where the convolutional layer is implemented as a quantum circuit with trainable parameters alongside a classical fully connected layer.
 
 ![Model visualization](graphics/model_visualizartion.png)
+![QML Draw](graphics/qmlDraw.png)
 
 We trained the model on both 2-class and 4-class subsets, where for each class, we randomly selected 200-500 samples. These samples were split into training, validation, and test sets using a 70-20-10 ratio.
 Further, we used performance metrics to evaluate our model. 
