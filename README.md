@@ -124,4 +124,4 @@ Estimated Best validation accuracy after 20 epochs: The validation accuracy migh
 Try out other encoding methods and do quantum resource estimation to compare the efficieny of these approaches. Try out other combination of these quantum layers to approach faster convergence of different classification metric results. Write a paper regarding the effect of encoding methods on image classification tasks in terms of speed, efficiency, and resources used for a better environment.
 
 ### Project Presentation Deck:
-_Link a 5min. presentation recording or deck here._
+_Link a 5min. presentation recording or deck [here](https://docs.google.com/presentation/d/1dmTXTWgtgkMsemQ3s403jcT-mjb1V-2iijAS94NLmng/edit?usp=sharing)
